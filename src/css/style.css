@@ -1,0 +1,253 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    /* border-style: groove;
+    border-color: #04345C;
+    border-width: 20px; */
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    right: 1000px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #04345C;
+    display: grid;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #04345C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9ACC39;
+}
+
+main {
+    margin-top: 3%;
+}
+
+.primeiro-nome {
+    color: #9ACC39;
+    margin: 0px;
+}
+
+.segundo-nome {
+    color: #04345C;
+}
+
+.cabecalho {
+    padding: 0px;
+    position: relative;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho nav {
+    display: flex;
+    position: relative;
+    left: 465px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0px;
+}
+
+.cabecalho ul li {
+    display: inline-flex;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.cabacalho nav ul li a {
+    font-family: 'Lato', sans-serif;
+    color: #04345C;
+}
+
+.quem-somos{
+    display: flex;
+}
+
+.texto {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(2, 70px);
+    grid-gap: 10px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.imagem-quem-somos {
+    grid-column: 1 / 3;
+}
+
+.titulo-quem-somos {
+    grid-column: 1 / span 2;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.texto-felipe {
+    color: #27678B;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.texto-luvanor {
+    color: green;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.servicos {
+    background: url(../images/pp.jpg);
+    height: 850px;
+}
+
+.titulo-painel-2 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #04345C;
+    font-size: 50PX;
+}
+
+.lista-painel-2 {
+    list-style: disc;
+    padding: 50px;
+    margin: 50px;
+    line-height: 120px;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: #27678B;
+}
+
+.projetos {
+    height: 850px;
+}
+
+.imagens-projetos {
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    color: #27678B;
+}
+
+.titulo-projetos {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    line-height: 90px;
+    font-size: 50px;
+}
+
+.projeto-1,
+.projeto-2,
+.projeto-3 {
+    width: 415px;
+    font-family: 'Lato', sans-serif;
+}
+
+.onde-estamos {
+    display: flex;
+    background-image: url(../images/imagemcontato.jpg);
+    height: 850px;
+    color: white;
+}
+
+.endereco {
+    text-align: left;
+    margin: 200px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    line-height: 55px;
+}
+
+.contato {
+    background-color: #04345C;
+    background-size: cover;
+}
+
+.titulo-contato {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+.rodape {
+    background-color: white;
+    background-size: cover;
+}
+
+.rodape ul {
+    float: right;
+    margin-top: 30px;
+}
+
+.rodape ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.rodape ul li a {
+    color: black;
+}
+
+.rodape ul li a:hover {
+    font-weight: bold;
+}
+
+.rodape .redes-sociais .gmail,
+.rodape .redes-sociais .instagram {
+    position: relative;
+    padding: 10px;
+    width: 20px;
+    height:20px;
+    left: 165px;
+    bottom: 20px;    
+}
+
+.rodape .redes-sociais {
+    float: right;
+    clear: both;
+}
+
+.rodape .conteudo-de-baixo {
+    margin-top: 40px;
+}
+
+.copyright {
+    display: flex;
+    color: black;
+    align-items: center;
+}
+
+.lista-rodape {
+    margin-top: 0px;
+}
+
+.numero-contato {
+    font-family: 'Lato', sans-serif;
+    color: #04345C;
+}
+
+
